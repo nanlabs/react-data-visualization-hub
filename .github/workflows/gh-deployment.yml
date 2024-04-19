@@ -9,7 +9,7 @@ on:
     workflows:
       - 'Continuous Integration'
     branches:
-      - CU-86dtad91f
+      - main
     types:
       - completed
 
