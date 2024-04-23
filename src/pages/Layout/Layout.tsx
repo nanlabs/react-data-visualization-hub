@@ -7,9 +7,9 @@ interface LayoutProps {
 
 const Layout: React.FC<LayoutProps> = ({ children }) => {
   return (
-    <div>
+    <div className="flex flex-row w-full h-screen">
       <Sidebar />
-      <div className="w-full">{children}</div>
+      <div className="flex justify-center items-center w-full p-10">{children}</div>
     </div>
   );
 };
